@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1d1e22;
+  color: #d4d4dc;
+}
+main{
+  font-size: 1.2em;
+  text-align: center;
+}
+main h1{
+  padding-bottom: 15px;
+}
+main li{
+  list-style-type: none;
+  padding: 5px;
+}
+main input{
+  font-size: 1.2em;
+  text-align: center;
+  border: 1px solid #393f4d;
+  border-radius: 5px;
+  padding: 3px;
+  outline: none;
+  background: #1d1e22;
+  color: #feda6a;
+}
